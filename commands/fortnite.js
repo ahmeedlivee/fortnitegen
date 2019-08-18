@@ -1,6 +1,7 @@
 const Discord = require("discord.js")
 const fs = require("fs")
 const config = require("../package.json")
+const token = process.env.arcadia
 const talkedRecently = new Set();
 
 exports.run = (client, message, args) => {
