@@ -2,7 +2,6 @@ const Discord = require("discord.js")
 const fs = require("fs")
 const client = new Discord.Client()
 const config = require("./package.json")
-const token = process.env.arcadia
 
 client.on('ready', () => {
    client.user.setPresence({
